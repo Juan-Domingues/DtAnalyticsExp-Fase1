@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
 
-df = pd.read_csv('C:\\Users\\jp291\\Downloads\\ExpVinho.csv', sep='\t')
+df = pd.read_csv('https://raw.githubusercontent.com/Juan-Domingues/DtAnalyticsExp-Fase1/main/Arquivos%20Bases/ExpUva.csv', sep='\t')
 
 def rename_columns(col):
     if col.endswith('.1'):
